@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export function Nav(){
 
     return(
-        <nav>
+        <nav className="main-nav">
             <Link to="/">Start</Link>
             <Link to="/howtoplay">Jak grać?</Link>
             <Link to="/maingame">Gra</Link>

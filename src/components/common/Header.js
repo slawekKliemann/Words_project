@@ -1,11 +1,11 @@
- import React from "react";
+import React from "react";
 
 
 export function Header(){
 
     return(
-        <header>
-            <h1>Words! Dostajesz pytanie - podajesz odpowiedź </h1>
+        <header className='header'>
+            <h1 className="header_description">Words! Dostajesz pytanie - podajesz odpowiedź </h1>
         </header>
     )
 }
