@@ -11,5 +11,3 @@ export function Nav(){
         </nav>
     )
 }
-
-// w ul dodać Link do podstron

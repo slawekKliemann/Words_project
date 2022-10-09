@@ -1,25 +1,6 @@
-/*
-import './App.scss';
-import {Footer} from "./components/common/Footer";
-import {Header} from "./components/common/Header";
-import {Nav} from "./components/common/Nav";
-
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Nav/>
-      <Footer/>
-    </div>
-  );
-}
-
-export default App;
-
-*/
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
-import './App.scss';
+import './scss/App.scss';
 import {Footer} from "./components/common/Footer";
 import {Header} from "./components/common/Header";
 import {Nav} from "./components/common/Nav";
