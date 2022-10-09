@@ -1,0 +1,104 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "description": "Prosta gra w karty",
+      "answer": "makao"
+    },
+    {
+      "id": 2,
+      "description": "Usuwa śnieg z drogi",
+      "answer": "Pług"
+    },
+    {
+      "id": 3,
+      "description": "Gronowy trunek",
+      "answer": "wino"
+      },
+    {
+      "id": 4,
+      "description": "Opłata przy zapisach",
+      "answer": "wpisowe"
+    },
+    {
+      "id": 5,
+      "description": "Wesoły pierwiastek",
+      "answer": "rad"
+    },
+    {
+      "id": 6,
+      "description": "Staruszek wśród komputerów",
+      "answer": "atari"
+    },
+    {
+      "id": 7,
+      "description": "Na niej opona",
+      "answer": "felga"
+    },
+    {
+      "id": 8,
+      "description": "Pudełko na okulary",
+      "answer": "etui"
+    },
+    {
+      "id": 9,
+      "description": "Stolica Norwegii",
+      "answer": "oslo"
+    },
+    {
+      "id": 10,
+      "description": "Narzędzie dla stolarza",
+      "answer": "dłuto"
+    },
+    {
+      "id": 11,
+      "description": "Np. dwuspadowy",
+      "answer": "dach"
+    },
+    {
+      "id": 12,
+      "description": "Corsa lub Astra",
+      "answer": "opel"
+    },
+    {
+      "id": 13,
+      "description": "Winslet lub Moss",
+      "answer": "kate"
+    },
+    {
+      "id": 14,
+      "description": "Szczerzone przez psa",
+      "answer": "kły"
+    },
+    {
+      "id": 15,
+      "description": "Ocena od jurora",
+      "answer": "nota"
+    },
+    {
+      "id": 16,
+      "description": "Górskie lub wydarzeń",
+      "answer": "pasmo"
+    },
+    {
+      "id": 17,
+      "description": "Cel biegaczy",
+      "answer": "meta"
+    },
+    {
+      "id": 18,
+      "description": "Szczerzone przez psa",
+      "answer": "kły"
+    },
+    {
+      "id": 19,
+      "description": "Reklamowy slogan lub dostępu",
+      "answer": "hasło"
+    },
+    {
+      "id": 20,
+      "description": "Coś darmowego",
+      "answer": "gratis"
+    }
+  ]
+}
