@@ -8,6 +8,8 @@ $color-background: #e8eceb;
 $color2: #e09e50;
 $color-menu: #8cbdb9;
 $color-button: #2d3e4e;
+$color-footer: #0d3e4e;
+$color-text: #e8eceb;
 
 .App {
   width: 100vw;
@@ -37,7 +39,7 @@ $color-button: #2d3e4e;
 
   .main-nav_link{
     text-align: center;
-    color:white;
+    color: $color-text;
     font-size: 1.2rem;
     display: inline-block;
     border-radius: 5px;
@@ -50,4 +52,39 @@ $color-button: #2d3e4e;
       transform: scale(1.1);
   }
 }
+}
+/////////////////////
+//tutaj content//
+
+.footer{
+  position: absolute;
+  bottom:0;
+  width:100vw;
+  background-color: $color-footer;
+  display: flex;
+  justify-content: space-between;
+  padding: .7rem;
+  box-shadow: -16px 10px 34px 34px rgba(0,0,0,0.20);
+
+  .footer_copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-text;
+    padding: .5rem;
+    font-size: .6rem;
+  }
+
+  .footer_social{
+    padding: .5rem;
+  }
+
+  .footer_social-link{
+    color:$color-text;
+    padding:.5rem;
+
+    &:hover i{
+      transform: scale(1.2);
+    }
+  }
 }
