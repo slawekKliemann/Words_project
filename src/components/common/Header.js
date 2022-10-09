@@ -1,9 +1,9 @@
-import React from "react";
+ import React from "react";
+ import {Nav} from "./Nav";
 
 export function Header(){
 
-
     return(
-        <div>Header</div>
+        <Nav/>
     )
 }
