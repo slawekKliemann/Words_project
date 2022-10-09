@@ -5,9 +5,10 @@ export function Nav(){
 
     return(
         <nav className="main-nav">
-            <Link to="/">Start</Link>
-            <Link to="/howtoplay">Jak grać?</Link>
-            <Link to="/maingame">Gra</Link>
+            <Link className="main-nav_link" to="/">Start</Link>
+            <Link className="main-nav_link" to="/howtoplay">Jak grać?</Link>
+            <Link className="main-nav_link" to="/maingame">Zagrajmy!</Link>
         </nav>
     )
 }
+
