@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +16,8 @@ $color-text: #e8eceb;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   text-align: center;
   background-color: $color-background;
 }
@@ -62,13 +62,16 @@ $color-text: #e8eceb;
 //tutaj content start//
 /////////////////////
 .start{
+  max-width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   margin:0 auto;
-  padding: 20px;
 
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 
   .start_character-img{
     width: 100%;
@@ -80,16 +83,20 @@ $color-text: #e8eceb;
     border: 1px solid $color-comment-border;
     border-radius: 10px;
     box-shadow: 14px 8px 50px 0 rgba(213, 130, 34, 1);
+    width:40%;
+    @media (max-width: 700px) {
+      width: 80%;
+      margin-bottom: 20px;
+    }
 
     .start_description-header{
       font-size: 1.8rem;
-      padding-top: 20px;
+      padding-top: 30px;
     }
 
     .start_description-paragraph{
       font-size: 1.2rem;
-      padding: 5px;
-      margin-bottom: 20px;
+      padding: 30px 20px;
     }
   }
 }
