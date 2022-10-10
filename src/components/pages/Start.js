@@ -12,7 +12,7 @@ export function Start(){
                 <h2 className="start_description-header">Cześć!</h2>
                 <p className="start_description-paragraph">
                     Mam na imię <strong>Stefan</strong> i jestem detektywem. Od wielu lat zajmuję się rozwiązywaniem zagadek słownych.
-                    Niestety jest ich tak wiele, że sam nie już nie nadążam.
+                    Niestety jest ich tak wiele, że sam już nie nadążam.
                     Jeżeli tak jak ja lubisz wyzwania to zapraszam Cię do wspólnej zabawy!
                 </p>
             </div>
