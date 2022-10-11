@@ -62,9 +62,15 @@ $color-text: #e8eceb;
 //tutaj content -> start - howToPlay//
 /////////////////////
 
+.mainGame_description{
+  display: flex;
+  flex-direction: column;
+}
 
 .start,
-.howToPlay{
+.howToPlay,
+.mainGame
+{
   max-width: 90%;
   display: flex;
   justify-content: center;
@@ -78,19 +84,24 @@ $color-text: #e8eceb;
   }
 
   .start_character-img,
-  .howToPlay_character-img{
+  .howToPlay_character-img,
+  .mainGame_character-img
+  {
     width: 99%;
     height: 99%;
   }
 
   .start_description,
-  .howToPlay_description{
+  .howToPlay_description,
+  .mainGame_description
+  {
     background-color: $color-comment-background;
     border: 1px solid $color-comment-border;
     border-radius: 10px;
     box-shadow: 14px 8px 50px 0 rgba(213, 130, 34, 1);
     width:40%;
     transition: .1s;
+
     &:hover{
       transform: scale(1.02);
     }
@@ -101,7 +112,9 @@ $color-text: #e8eceb;
     }
 
     .start_description-header,
-    .howToPlay_description-header{
+    .howToPlay_description-header,
+    .mainGame_description-header
+    {
       font-size: 1.8rem;
       padding-top: 30px;
 
