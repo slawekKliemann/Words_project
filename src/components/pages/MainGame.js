@@ -22,7 +22,12 @@ import letsPlay from '../../images/letsPlay.png'
 
 
 export function MainGame(){
-    const [letter, setLetter] = useState()
+    const [words, setWords] = useState('')
+
+    function handleCheck(event){
+        event.preventDefault()
+        console.log(words)
+    }
 
     return(
         <main className="mainGame">
@@ -31,9 +36,9 @@ export function MainGame(){
             </div>
             <div className="mainGame_description">
                 <h2 className="mainGame_description-header">TUTAJ BĘDZIE PYTANIE</h2>
-                <input type="text" placeholder="WPISZ ODPOWIEDŹ"/>
+                <input type="text" value={words} onChange={e => setWords(e.target.value)} placeholder="WPISZ ODPOWIEDŹ"/>
                 <button>LOSUJ</button>
-                <button>SPRAWDŹ</button>
+                <button onClick={handleCheck}>SPRAWDŹ</button>
             </div>
         </main>
     )
