@@ -99,6 +99,156 @@
       "id": 20,
       "description": "Coś darmowego",
       "answer": "gratis"
+    },
+    {
+      "id": 21,
+      "description": "Pręcik w ołówku",
+      "answer": "grafit"
+    },
+    {
+      "id": 22,
+      "description": "Czarny ptak",
+      "answer": "kruk"
+    },
+    {
+      "id": 23,
+      "description": "Skorupiak z kleszczami",
+      "answer": "rak"
+    },
+    {
+      "id": 24,
+      "description": "Robi dziury w ścianie",
+      "answer": "wiertarka"
+    },
+    {
+      "id": 25,
+      "description": "Żółwie lub węże",
+      "answer": "gady"
+    },
+    {
+      "id": 26,
+      "description": "Paliwo reaktorów jądrowych",
+      "answer": "uran"
+    },
+    {
+      "id": 27,
+      "description": "W środku dyni",
+      "answer": "pestki"
+    },
+    {
+      "id": 28,
+      "description": "Sportowa lub targowa",
+      "answer": "hala"
+    },
+    {
+      "id": 29,
+      "description": "Wynik dodawania",
+      "answer": "suma"
+    },
+    {
+      "id": 30,
+      "description": "Oaza zieleni w mieście",
+      "answer": "park"
+    },
+    {
+      "id": 31,
+      "description": "Krakowskie wzgórze z zamkiem",
+      "answer": "wawel"
+    },
+    {
+      "id": 32,
+      "description": "Kokosowy baton",
+      "answer": "bounty"
+    },
+    {
+      "id": 33,
+      "description": "Pieczywo jak półksiężyc",
+      "answer": "rogal"
+    },
+    {
+      "id": 34,
+      "description": "Mustang z szosy",
+      "answer": "ford"
+    },
+    {
+      "id": 35,
+      "description": "Komputerowe urządzenie wskazujące",
+      "answer": "myszka"
+    },
+    {
+      "id": 36,
+      "description": "Oklaski po występie",
+      "answer": "brawa"
+    },
+    {
+      "id": 37,
+      "description": "Owoc jak rogal",
+      "answer": "banan"
+    },
+    {
+      "id": 38,
+      "description": "Zbiory z pól, sadów",
+      "answer": "plony"
+    },
+    {
+      "id": 39,
+      "description": "Fiat 126p potocznie",
+      "answer": "maluch"
+    },
+    {
+      "id": 40,
+      "description": "Szef (potocznie)",
+      "answer": "stary"
+    },
+    {
+      "id": 41,
+      "description": "Owoc jak szyszka",
+      "answer": "ananas"
+    },
+    {
+      "id": 42,
+      "description": "Załącznik do umowy",
+      "answer": "aneks"
+    },
+    {
+      "id": 43,
+      "description": "Paliwo - płynie z odwiertu",
+      "answer": "ropa"
+    },
+    {
+      "id": 44,
+      "description": "W parku lub szkolnej klasie",
+      "answer": "ławka"
+    },
+    {
+      "id": 45,
+      "description": "Do malowania ścian",
+      "answer": "farba"
+    },
+    {
+      "id": 46,
+      "description": "Karp lub łosoś",
+      "answer": "ryba"
+    },
+    {
+      "id": 47,
+      "description": "Wieszane na żabkach",
+      "answer": "firanki"
+    },
+    {
+      "id": 48,
+      "description": "Napędzany wiosłem",
+      "answer": "kajak"
+    },
+    {
+      "id": 49,
+      "description": "Ibiza lub Leon",
+      "answer": "seat"
+    },
+    {
+      "id": 50,
+      "description": "Liczbowa lub symetrii",
+      "answer": "oś"
     }
   ]
 }
