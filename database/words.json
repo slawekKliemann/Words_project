@@ -249,6 +249,256 @@
       "id": 50,
       "description": "Liczbowa lub symetrii",
       "answer": "oś"
+    },
+    {
+      "id": 51,
+      "description": "List Elektroniczny",
+      "answer": "email"
+    },
+    {
+      "id": 52,
+      "description": "Gasi pożary",
+      "answer": "strażak"
+    },
+    {
+      "id": 53,
+      "description": "Narciarski gigant",
+      "answer": "slalom"
+    },
+    {
+      "id": 54,
+      "description": "Pracuś lub Osiłek",
+      "answer": "smerf"
+    },
+    {
+      "id": 55,
+      "description": "Najwyższy polski szczyt",
+      "answer": "rysy"
+    },
+    {
+      "id": 56,
+      "description": "Chorych lub fiskalna",
+      "answer": "kasa"
+    },
+    {
+      "id": 57,
+      "description": "Wypływa z każdej bajki",
+      "answer": "morał"
+    },
+    {
+      "id": 58,
+      "description": "Profit",
+      "answer": "zysk"
+    },
+    {
+      "id": 59,
+      "description": "Złoty lub sędziwy",
+      "answer": "wiek"
+    },
+    {
+      "id": 60,
+      "description": "Rozbraja niewypały",
+      "answer": "saper"
+    },
+    {
+      "id": 61,
+      "description": "Ciągnięte przez renifery",
+      "answer": "sanie"
+    },
+    {
+      "id": 62,
+      "description": "Niezmienna wielkość fizyczna",
+      "answer": "stała"
+    },
+    {
+      "id": 63,
+      "description": "Bokser zwany Bestią",
+      "answer": "Tyson"
+    },
+    {
+      "id": 64,
+      "description": "Niezmienna wielkość fizyczna",
+      "answer": "stała"
+    },
+    {
+      "id": 65,
+      "description": "W bibliotece na książki",
+      "answer": "regał"
+    },
+    {
+      "id": 66,
+      "description": "Walczy z nim strażak",
+      "answer": "ogień"
+    },
+    {
+      "id": 67,
+      "description": "Przed południem",
+      "answer": "rano"
+    },
+    {
+      "id": 68,
+      "description": "Nazywana królową nauk",
+      "answer": "matematyka"
+    },
+    {
+      "id": 69,
+      "description": "Kształt zbliżony do koła",
+      "answer": "owal"
+    },
+    {
+      "id": 70,
+      "description": "Część dolara",
+      "answer": "cent"
+    },
+    {
+      "id": 71,
+      "description": "Lata pracy w firmie",
+      "answer": "staż"
+    },
+    {
+      "id": 72,
+      "description": "Pocisk karabinu",
+      "answer": "kula"
+    },
+    {
+      "id": 73,
+      "description": "Drobina kurzu",
+      "answer": "pyłek"
+    },
+    {
+      "id": 74,
+      "description": "Mieszkalny lub gastronomiczny",
+      "answer": "lokal"
+    },
+    {
+      "id": 75,
+      "description": "Karta w rękawie",
+      "answer": "as"
+    },
+    {
+      "id": 76,
+      "description": "Polski traktor",
+      "answer": "ursus"
+    },
+    {
+      "id": 77,
+      "description": "Z Tytusem i Romkiem",
+      "answer": "atomek"
+    },
+    {
+      "id": 78,
+      "description": "Osiem bitów",
+      "answer": "bajt"
+    },
+    {
+      "id": 79,
+      "description": "Kula wpadająca do łuzy",
+      "answer": "bila"
+    },
+    {
+      "id": 80,
+      "description": "Kropla z oka",
+      "answer": "łza"
+    },
+    {
+      "id": 81,
+      "description": "Pismo dla niewidomych",
+      "answer": "brajl"
+    },
+    {
+      "id": 82,
+      "description": "Bałtyckie lub Czarne",
+      "answer": "morze"
+    },
+    {
+      "id": 83,
+      "description": "Trzy w tysiącu",
+      "answer": "zera"
+    },
+    {
+      "id": 84,
+      "description": "Po obiedzie",
+      "answer": "deser"
+    },
+    {
+      "id": 85,
+      "description": "Pieśń z opery",
+      "answer": "aria"
+    },
+    {
+      "id": 86,
+      "description": "Na czele wyścigu",
+      "answer": "lider"
+    },
+    {
+      "id": 87,
+      "description": "Np. James Bond",
+      "answer": "agent"
+    },
+    {
+      "id": 88,
+      "description": "Karciana królowa",
+      "answer": "dama"
+    },
+    {
+      "id": 89,
+      "description": "Wielka siła",
+      "answer": "moc"
+    },
+    {
+      "id": 90,
+      "description": "Mieszkańcy Podhala",
+      "answer": "górale"
+    },
+    {
+      "id": 91,
+      "description": "Kupowane w aptece",
+      "answer": "leki"
+    },
+    {
+      "id": 92,
+      "description": "Dwanaście sztuk",
+      "answer": "tuzin"
+    },
+    {
+      "id": 93,
+      "description": "Bilet na kilka meczów",
+      "answer": "karnet"
+    },
+    {
+      "id": 94,
+      "description": "Prosty, ostry lub rozwarty",
+      "answer": "kąt"
+    },
+    {
+      "id": 95,
+      "description": "Składane jubilatowi",
+      "answer": "życzenia"
+    },
+    {
+      "id": 96,
+      "description": "Satelita Ziemii",
+      "answer": "księżyc"
+    },
+    {
+      "id": 97,
+      "description": "Duńskie klocki",
+      "answer": "lego"
+    },
+    {
+      "id": 98,
+      "description": "W dawnej lampie",
+      "answer": "nafta"
+    },
+    {
+      "id": 99,
+      "description": "Odmierza czas",
+      "answer": "zegar"
+    },
+    {
+      "id": 100,
+      "description": "...Suflera",
+      "answer": "budka"
     }
   ]
 }
