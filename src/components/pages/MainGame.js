@@ -10,9 +10,7 @@ function RandomQ({setCorrect}) {
     const [isLoaded, setIsLoaded] = useState(false);
     const [task, setTask] = useState([]);
 
-    const quest = task.map((item)=>{
-        return item
-    });
+    const quest = task.map((item) => item);
     const randomQuest = quest[Math.floor(Math.random()*quest.length)];
 
     useEffect(() => {
@@ -34,13 +32,11 @@ function RandomQ({setCorrect}) {
     } else if (!isLoaded) {
         return <div>Szukam zadania dla Ciebie...</div>;
     } else {
-        return (
-            <>
-                <h2>{randomQuest.description}</h2>
-                <h3>Liczba liter w wyrazie: {randomQuest.answer.length}</h3>
-                <Form prop={randomQuest.answer} setCorrect={setCorrect} />
-            </>
-        );
+        return <Form
+                    prop={randomQuest.answer}
+                    setCorrect={setCorrect}
+                    question={randomQuest.description}
+                />
     }
 }
 
@@ -68,26 +64,43 @@ function Form(props){
     if (reply){
         return(
             <>
-                <div>GRATULACJE! <strong>{words.toUpperCase()}</strong> to poprawna odpowiedź</div>
+                <div>
+                    GRATULACJE!
+                    <strong> {words.toUpperCase()} </strong>
+                    to poprawna odpowiedź.
+                </div>
                 <button onClick={random}>Losuj</button>
             </>
         )
-    }
-    if (reply === false){
+    } else if (reply === false){
         return(
             <>
-                <div>Niestety nie. Prawidłowa odpowiedź to <strong>{props.prop.toUpperCase()}</strong> ale nie martw się, to zadanie było trudne</div>
+                <div>
+                    Niestety<strong> {words.toUpperCase()} </strong>
+                    to nie jest dobra odpowiedź,
+                    ale nie martw się, to zadanie było trudne.
+                    Spróbuj jeszcze raz!
+                </div>
                 <button onClick={random}>Losuj</button>
             </>
         )
-    }
-    return(
+    } return(
         <form>
+            <h2>{props.question}</h2>
+            <h3>Liczba liter w wyrazie: {props.prop.length}</h3>
             <label>
                 Tutaj wpisz odpowiedź
-                <input type="text" value={words} onChange={e => setWords(e.target.value)} placeholder="WPISZ ODPOWIEDŹ"/>
+                <input
+                    type="text" value={words}
+                    onChange={e => setWords(e.target.value)}
+                    placeholder="WPISZ ODPOWIEDŹ"
+                />
             </label>
-            <input type="submit" value="SPRAWDŹ" onClick={check}/>
+            <input
+                type="submit"
+                value="SPRAWDŹ"
+                onClick={check}
+            />
         </form>
     )
 }
@@ -101,8 +114,7 @@ export function MainGame(){
             setImage(letsPlay);
         } else if (correct) {
             setImage(goodAnswer);
-        }
-        else {
+        } else {
             setImage(badAnswer);
         }
     }, [correct])
@@ -110,7 +122,10 @@ export function MainGame(){
     return(
         <main className="mainGame">
             <div className="mainGame_character">
-                <img className="mainGame_character-img" src={image} alt="Postać detektywa zadająca pytanie"/>
+                <img
+                    className="mainGame_character-img"
+                    src={image} alt="Postać detektywa"
+                />
             </div>
             <div className="mainGame_description">
                 <RandomQ setCorrect={setCorrect}/>
