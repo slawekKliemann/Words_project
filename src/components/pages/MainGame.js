@@ -3,6 +3,7 @@ import {RandomQ} from "./RandomQ";
 import goodAnswer from '../../images/goodAnswer.png';
 import badAnswer from '../../images/badAnswer.png';
 import letsPlay from '../../images/letsPlay.png';
+import addWords from '../../images/addWords.png';
 
 
 export function MainGame(){
@@ -11,7 +12,7 @@ export function MainGame(){
 
     useEffect(() => {
         if (correct === null) {
-            setImage(letsPlay);
+            setImage(addWords);
         } else if (correct) {
             setImage(goodAnswer);
         } else {
