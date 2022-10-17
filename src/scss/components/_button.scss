@@ -1,0 +1,21 @@
+@mixin buttonStyle(){
+  cursor: pointer;
+  text-align: center;
+  color: $color-text;
+  font-size: 1.2rem;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  margin:10px;
+  @content;
+}
+
+.button,input[type=submit] {
+  @include buttonStyle{
+    width:50%;
+    align-self: center;
+    background-color: $color-button;
+    padding: 5px;
+    margin:10px;
+  }
+}

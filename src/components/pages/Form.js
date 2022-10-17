@@ -25,24 +25,32 @@ export function Form(props){
     if (reply) {
         return(
             <>
-                <div>
+                <div className="form_answer">
                     GRATULACJE!
                     <strong> {words.toUpperCase()} </strong>
                     to poprawna odpowiedź.
                 </div>
-                <button onClick={random}>Losuj</button>
+                <button
+                    className="button"
+                    onClick={random}>
+                    Losuj
+                </button>
             </>
         )
     } else if (reply===false){
         return(
             <>
-                <div>
+                <div className="form_answer">
                     Niestety<strong> {words.toUpperCase()} </strong>
                     to nie jest poprawna odpowiedź,
                     ale nie martw się, to zadanie było trudne.
                     Spróbuj jeszcze raz!
                 </div>
-                <button onClick={random}>Losuj</button>
+                <button
+                    className="button"
+                    onClick={random}>
+                    Losuj
+                </button>
             </>
         )
     }   return(
