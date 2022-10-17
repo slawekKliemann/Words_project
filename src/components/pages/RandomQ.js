@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Form} from "./Form";
-const API = "http://localhost:3000";
+const API = "https://api.npoint.io/8d88cebccf21413c4e1b";
 
 
 export function RandomQ({setCorrect}) {
@@ -12,7 +12,7 @@ export function RandomQ({setCorrect}) {
     const randomQuest = quest[Math.floor(Math.random()*quest.length)];
 
     useEffect(() => {
-        fetch(`${API}/words`)
+        fetch(API)
             .then(res => res.json())
             .then(
                 (result) => {
@@ -31,9 +31,9 @@ export function RandomQ({setCorrect}) {
         return <div>Szukam zadania dla Ciebie...</div>;
     } else {
         return <Form
-                 prop={randomQuest.answer}
-                 setCorrect={setCorrect}
-                 question={randomQuest.description}
+                prop={randomQuest.answer}
+                setCorrect={setCorrect}
+                question={randomQuest.description}
                />
     }
 }
