@@ -27,7 +27,7 @@ export function RandomQ({setCorrect}) {
     }, []);
     if (error) {
         return <div>O NIE! Zapodziałem gdzieś swoje notatki. Wróć za chwilę!</div>;
-    } else if (!isLoaded) {
+    } else if (!isLoaded){
         return <div>Szukam zadania dla Ciebie...</div>;
     } else {
         return <Form

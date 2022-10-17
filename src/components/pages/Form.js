@@ -17,12 +17,12 @@ export function Form(props){
         event.preventDefault()
         if (props.prop.toLowerCase()===words.toLowerCase()){
             setReply(true);
-        } else{
+        } else {
             setReply(false);
         }
     }
 
-    if (reply){
+    if (reply) {
         return(
             <>
                 <div>
@@ -33,7 +33,7 @@ export function Form(props){
                 <button onClick={random}>Losuj</button>
             </>
         )
-    } else if (reply === false){
+    } else if (reply===false){
         return(
             <>
                 <div>
@@ -45,23 +45,23 @@ export function Form(props){
                 <button onClick={random}>Losuj</button>
             </>
         )
-    } return(
-        <form>
-            <h2>{props.question}</h2>
-            <h3>Liczba liter w wyrazie: {props.prop.length}</h3>
-            <label>
-                Tutaj wpisz odpowiedź
+    }   return(
+            <form>
+                <h2>{props.question}</h2>
+                <h3>Liczba liter w wyrazie: {props.prop.length}</h3>
+                <label>
+                    Tutaj wpisz odpowiedź
+                    <input
+                        type="text" value={words}
+                        onChange={e => setWords(e.target.value)}
+                        placeholder="WPISZ ODPOWIEDŹ"
+                    />
+                </label>
                 <input
-                    type="text" value={words}
-                    onChange={e => setWords(e.target.value)}
-                    placeholder="WPISZ ODPOWIEDŹ"
+                    type="submit"
+                    value="SPRAWDŹ"
+                    onClick={check}
                 />
-            </label>
-            <input
-                type="submit"
-                value="SPRAWDŹ"
-                onClick={check}
-            />
-        </form>
-    )
+            </form>
+        )
 }

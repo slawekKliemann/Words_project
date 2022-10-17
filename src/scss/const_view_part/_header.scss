@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: $color-background;
+}
+
+.header{
+  background-color: $color-background;
+  text-align: center;
+  padding:1.5em;
+}

@@ -1,0 +1,30 @@
+.footer{
+  width:100%;
+  background-color: $color-footer;
+  display: flex;
+  justify-content: space-between;
+  padding: .7rem;
+  box-shadow: -16px 10px 34px 34px rgba(0,0,0,0.20);
+
+  .footer_copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-text;
+    padding: .5rem;
+    font-size: .6rem;
+  }
+
+  .footer_social{
+    padding: .5rem;
+  }
+
+  .footer_social-link{
+    color:$color-text;
+    padding:.5rem;
+
+    &:hover i{
+      transform: scale(1.2);
+    }
+  }
+}
