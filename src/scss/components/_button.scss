@@ -1,21 +1,19 @@
-@mixin buttonStyle(){
+@mixin buttonStyle() {
   cursor: pointer;
   text-align: center;
+  align-self: center;
   color: $color-text;
-  font-size: 1.2rem;
-  display: inline-block;
-  border-radius: 5px;
+  font-size: .8rem;
+  font-weight: bold;
+  background-color: $color-button;
+  border-radius: $radius;
   text-decoration: none;
+  width:55%;
   margin:10px;
+  padding: $small-padding;
   @content;
 }
 
 .button,input[type=submit] {
-  @include buttonStyle{
-    width:55%;
-    align-self: center;
-    background-color: $color-button;
-    padding: 5px;
-    margin:10px;
-  }
+  @include buttonStyle()
 }

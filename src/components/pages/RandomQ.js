@@ -22,7 +22,7 @@ export function RandomQ({setCorrect}) {
                 (error) => {
                     setIsLoaded(true);
                     setError(error);
-                }
+                },
             );
     }, []);
     if (error) {
@@ -31,9 +31,9 @@ export function RandomQ({setCorrect}) {
         return <div>Szukam zadania dla Ciebie...</div>;
     } else {
         return <Form
-                prop={randomQuest.answer}
-                setCorrect={setCorrect}
-                question={randomQuest.description}
+                 prop={randomQuest.answer}
+                 setCorrect={setCorrect}
+                 question={randomQuest.description}
                />
     }
 }

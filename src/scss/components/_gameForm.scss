@@ -1,19 +1,30 @@
-.mainGame_description{
+@mixin flex() {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @content
+}
 
-  form{
-    display: flex;
-    flex-direction: column;
+.mainGame_description {
+  @include flex()
+}
+  form {
+    @include flex {
+      width:100%;
+      margin: $small-margin;
+    }
 
-    h2,h3,label{
+    h2,h3,label {
       padding: $small-padding;
     }
   }
-}
-.form_answer{
+
+.form_answer,input[type=text] {
+  width: 90%;
   font-size: 1.2rem;
   padding: $small-padding;
+  margin: $small-margin;
+  text-align: center;
+  border-radius: $radius;
 }

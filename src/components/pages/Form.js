@@ -62,7 +62,7 @@ export function Form(props){
                     <input
                         type="text" value={words}
                         onChange={e => setWords(e.target.value)}
-                        placeholder="WPISZ ODPOWIEDŹ"
+                        placeholder="ODPOWIEDŹ"
                     />
                 </label>
                 <input

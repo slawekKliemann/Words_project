@@ -2,12 +2,11 @@ import React, {useEffect, useState} from "react";
 import {RandomQ} from "./RandomQ";
 import goodAnswer from '../../images/goodAnswer.png';
 import badAnswer from '../../images/badAnswer.png';
-import letsPlay from '../../images/letsPlay.png';
 import addWords from '../../images/addWords.png';
 
 
 export function MainGame(){
-    const [image, setImage] = useState(letsPlay);
+    const [image, setImage] = useState(addWords);
     const [correct, setCorrect] = useState(null);
 
     useEffect(() => {
@@ -25,7 +24,8 @@ export function MainGame(){
             <div className="mainGame_character">
                 <img
                     className="mainGame_character-img"
-                    src={image} alt="Postać detektywa"
+                    src={image}
+                    alt="Postać detektywa"
                 />
             </div>
             <div className="mainGame_description">

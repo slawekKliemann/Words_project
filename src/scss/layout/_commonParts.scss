@@ -1,4 +1,4 @@
-.mainGame{
+.mainGame {
   width:100%
 }
 
@@ -36,7 +36,7 @@
     width:40%;
     transition: .1s;
 
-    &:hover{
+    &:hover {
       transform: scale(1.02);
     }
 
@@ -50,14 +50,14 @@
     .mainGame_description-header
     {
       font-size: 1.8rem;
-      padding-top: 30px;
-
+      padding-top: $large-padding;
     }
 
     .start_description-paragraph,
-    .howToPlay_description-paragraph{
+    .howToPlay_description-paragraph
+    {
       font-size: 1.2rem;
-      padding: 30px 20px;
+      padding: $large-padding;
     }
   }
 }

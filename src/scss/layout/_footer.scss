@@ -1,4 +1,4 @@
-.footer{
+.footer {
   width:100%;
   background-color: $color-footer;
   display: flex;
@@ -6,24 +6,26 @@
   padding: .7rem;
   box-shadow: -16px 10px 34px 34px rgba(0,0,0,0.20);
 
-  .footer_copyright{
+  .footer_copyright {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     color: $color-text;
-    padding: .5rem;
+    text-align: left;
+    padding: $small-padding;
     font-size: .6rem;
   }
 
-  .footer_social{
-    padding: .5rem;
+  .footer_social {
+    padding: $small-padding;
   }
 
-  .footer_social-link{
+  .footer_social-link {
     color:$color-text;
-    padding:.5rem;
+    padding: $small-padding;
 
-    &:hover i{
+    &:hover i {
       transform: scale(1.2);
     }
   }
