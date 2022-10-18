@@ -7,6 +7,7 @@ export function Form(props){
 
     useEffect(() => {
         props.setCorrect(reply);
+        // eslint-disable-next-line
     }, [reply])
 
     function random(){
