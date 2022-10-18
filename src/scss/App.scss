@@ -5,7 +5,7 @@
 @import "layout/nav";
 @import "layout/footer";
 @import "components/button";
-
+@import "components/gameForm";
 
 .mainGame{
   width:100%
@@ -77,25 +77,4 @@
   @media (max-width: 700px) {
     flex-direction: column;
   }
-}
-
-.mainGame_description{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-
-  form{
-    display: flex;
-    flex-direction: column;
-
-    h2,h3,label{
-      padding: 5px;
-    }
-  }
-}
-.form_answer{
-  font-size: 1.2rem;
-  padding: 5px;
 }

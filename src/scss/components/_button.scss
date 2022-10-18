@@ -12,7 +12,7 @@
 
 .button,input[type=submit] {
   @include buttonStyle{
-    width:50%;
+    width:55%;
     align-self: center;
     background-color: $color-button;
     padding: 5px;
