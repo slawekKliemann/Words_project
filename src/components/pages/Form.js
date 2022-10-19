@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import {GoodAnswer} from "../game_components/GoodAnswer";
+import {BadAnswer} from "../game_components/BadAnswer";
 
 
 export function Form(props){
@@ -23,36 +25,13 @@ export function Form(props){
         }
     }
 
-    if (reply) {
+    if (reply){
         return(
-            <>
-                <div className="form_answer">
-                    GRATULACJE!
-                    <strong> {words.toUpperCase()} </strong>
-                    to poprawna odpowiedź.
-                </div>
-                <button
-                    className="button"
-                    onClick={random}>
-                    Losuj
-                </button>
-            </>
+                <GoodAnswer random={random} words={words}/>
         )
     } else if (reply===false){
         return(
-            <>
-                <div className="form_answer">
-                    Niestety<strong> {words.toUpperCase()} </strong>
-                    to nie jest poprawna odpowiedź,
-                    ale nie martw się, to zadanie było trudne.
-                    Spróbuj jeszcze raz!
-                </div>
-                <button
-                    className="button"
-                    onClick={random}>
-                    Losuj
-                </button>
-            </>
+                <BadAnswer random={random} words={words}/>
         )
     }   return(
             <form>
