@@ -3,7 +3,7 @@ import {Form} from "./Form";
 const API = "https://api.npoint.io/8d88cebccf21413c4e1b";
 
 
-export function RandomQ({setCorrect}) {
+export function RandomQ({setCorrect}){
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [task, setTask] = useState([]);
@@ -31,7 +31,7 @@ export function RandomQ({setCorrect}) {
         return <div>Szukam zadania dla Ciebie...</div>;
     } else {
         return <Form
-                 prop={randomQuest.answer}
+                 qAnswer={randomQuest.answer}
                  setCorrect={setCorrect}
                  question={randomQuest.description}
                />

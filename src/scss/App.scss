@@ -7,12 +7,3 @@
 @import "layout/commonParts";
 @import "components/button";
 @import "components/gameForm";
-
-
-.howToPlay{
-  flex-direction: row-reverse;
-
-  @media (max-width: 700px) {
-    flex-direction: column;
-  }
-}

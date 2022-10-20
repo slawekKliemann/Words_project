@@ -3,12 +3,12 @@ import {GoodAnswer} from "../game_components/GoodAnswer";
 import {BadAnswer} from "../game_components/BadAnswer";
 
 
-export function Form(props){
+export function Form({qAnswer, question, setCorrect}){
     const [words, setWords] = useState('');
     const [reply, setReply] = useState(null);
 
     useEffect(() => {
-        props.setCorrect(reply);
+        setCorrect(reply);
         // eslint-disable-next-line
     }, [reply])
 
@@ -18,7 +18,7 @@ export function Form(props){
 
     function check(event){
         event.preventDefault()
-        if (props.prop.toLowerCase()===words.toLowerCase()){
+        if (qAnswer.toLowerCase()===words.toLowerCase()){
             setReply(true);
         } else {
             setReply(false);
@@ -35,8 +35,8 @@ export function Form(props){
         )
     }   return(
             <form>
-                <h2>{props.question}</h2>
-                <h3>Liczba liter w wyrazie: {props.prop.length}</h3>
+                <h2>{question}</h2>
+                <h3>Liczba liter w wyrazie: {qAnswer.length}</h3>
                 <label>
                     Tutaj wpisz odpowiedź
                     <input

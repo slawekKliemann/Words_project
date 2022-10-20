@@ -17,7 +17,7 @@ export function MainGame(){
         } else {
             setImage(badAnswer);
         }
-    }, [correct])
+    }, [correct]);
 
     return(
         <main className="mainGame">
